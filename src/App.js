@@ -5,7 +5,7 @@ import moment from "moment";
 import Input from "./Input";
 import axios from "axios";
 const subjects = ["Angular", "React", "Golang"];
-const targetDate = moment("12/21/2900 18:00:00");
+const targetDate = moment("12/21/2019 18:00:00");
 function App() {
   const [name, setName] = React.useState("");
   const [mail, setMail] = React.useState("");
